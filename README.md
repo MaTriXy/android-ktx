@@ -1,9 +1,23 @@
 Android KTX
 ===========
 
+**ATTENTION**: This repository is no longer being used for development, tracking issues, or
+accepting pull requests.
+
+Please file any bug reports or feature suggestions for core-ktx and the other "KTX" libraries at
+https://issuetracker.google.com/issues/new?component=396204
+
+Please contribute to core-ktx and the other "KTX" libraries in AOSP by following the instructions
+in the README of https://android.googlesource.com/platform/frameworks/support/
+
+Thanks!
+
+----
+
 A set of Kotlin extensions for Android app development. The goal of Android KTX is to make Android
-development with Kotlin more concise, pleasant, and idiomatic. It is an explicit goal of this
-project to not add any new feature to the existing Android APIs.
+development with Kotlin more concise, pleasant, and idiomatic by leveraging the features of the
+language such as extension functions/properties, lambdas, named parameters, and parameter defaults.
+It is an explicit goal of this project to not add any new features to the existing Android APIs.
 
 **Kotlin:**
 ```kotlin
@@ -85,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:0.1'
+    implementation 'androidx.core:core-ktx:1.0.0-alpha1'
 }
 ```
 
@@ -143,7 +157,7 @@ the fix.
 **New API or API changes**
 
 Pull requests for new APIs or changes to existing APIs are welcome, but may require a bit of
-discussion. Consider creating an issue to discuss and changes before you implement the change.
+discussion. Consider creating an issue to discuss any changes before you implement the change.
 
 Before submitting,
 
